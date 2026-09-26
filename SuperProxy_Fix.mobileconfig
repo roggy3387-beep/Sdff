@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <!-- កូដ DNS over HTTPS (DoH) -->
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://version.freefire.info/public/smeta</string>
+            </dict>
+            <key>PayloadDescription</key>
+            <string>Super Proxy DNS Configuration</string>
+            <key>PayloadDisplayName</key>
+            <string>Super Proxy 🍎 DNS</string>
+            <key>PayloadIdentifier</key>
+            <string>com.superproxy.apple.dns.payload</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>B1C2D3E4-F5A6-7890-ABCD-EF0123456789</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    
+    <key>PayloadDescription</key>
+    <string>Super Proxy 🍎 Optimized Profile for Free Fire</string>
+    <key>PayloadDisplayName</key>
+    <string>Super Proxy 🍎</string>
+    <key>PayloadIdentifier</key>
+    <string>com.superproxy.apple.profile</string>
+    <key>PayloadOrganization</key>
+    <string>Super Proxy</string>
+    <key>PayloadRemovalDisallowed</key>
+    <false/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>87654321-DCBA-FE09-8765-4321FEDCBA09</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
